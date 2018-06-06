@@ -1,2 +1,2 @@
 # KBs
-Contains all the KB files I finde useful.
+Contains all the KB files I find useful.
