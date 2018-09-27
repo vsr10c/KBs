@@ -1,4 +1,4 @@
-Step 1 – Edit Config.txt
+# Step 1 – Edit Config.txt
 
 sudo nano /boot/config.txt
 
