@@ -1,0 +1,39 @@
+Directory layout of Debian packageedit
+The Debian package places config files, logs, and the data directory in the appropriate locations for a Debian-based system:
+
+Type	Description	Default Location	Setting
+home
+
+Kibana home directory or $KIBANA_HOME
+
+/usr/share/kibana
+
+bin
+
+Binary scripts including kibana to start the Kibana server and kibana-plugin to install plugins
+
+/usr/share/kibana/bin
+
+config
+
+Configuration files including kibana.yml
+
+/etc/kibana
+
+data
+
+The location of the data files written to disk by Kibana and its plugins
+
+/var/lib/kibana
+
+path.data
+
+optimize
+
+Transpiled source code. Certain administrative actions (e.g. plugin install) result in the source code being retranspiled on the fly.
+
+/usr/share/kibana/optimize
+
+plugins
+
+Plugin files location. Each plugin will be contained in a subdirectory.
